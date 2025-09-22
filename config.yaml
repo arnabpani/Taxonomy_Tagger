@@ -1,0 +1,41 @@
+# Configuration file for Document Taxonomy Analyzer
+
+# OpenAI API Configuration
+openai:
+  api_key: ""  # Will be loaded from environment variable OPENAI_API_KEY
+  model: "gpt-5"  # The newest OpenAI model released August 7, 2025
+  max_tokens: 4000
+  temperature: 0.1  # Low temperature for consistent classification
+  embedding_model: "text-embedding-3-large"  # Model for creating embeddings
+
+# Document Processing Configuration
+documents:
+  input_folder: "./input_documents"  # Path to folder containing documents to analyze
+  supported_formats: [".txt", ".pdf", ".docx", ".md", ".doc"]
+  max_file_size_mb: 50
+  chunk_size: 1000  # Characters per chunk for RAG
+  chunk_overlap: 200  # Overlap between chunks
+
+# Taxonomy Configuration  
+taxonomy:
+  file_path: "./attached_assets/Taxonomy_1758125169756.json"
+  cache_enabled: true
+  confidence_threshold: 0.3  # Minimum confidence score to assign a tag
+
+# RAG Configuration
+rag:
+  enabled: true
+  vector_store_path: "./RAG_Vectors"  # Changed from "./vector_store" to "./RAG_Vectors"
+  top_k_chunks: 5  # Number of chunks to retrieve per query
+  similarity_threshold: 0.75  # Minimum similarity score for relevant chunks
+
+# Output Configuration
+output:
+  table_format: "csv"  # Options: csv, xlsx, json
+  output_file: "./results/document_taxonomy_results.csv"
+  include_confidence_scores: true
+
+# Logging Configuration
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+  file: "./logs/taxonomy_analyzer.log"

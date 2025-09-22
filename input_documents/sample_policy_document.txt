@@ -1,0 +1,56 @@
+Information Security Policy
+
+Document Version: 2.1
+Effective Date: January 2024
+Review Date: January 2025
+
+1. PURPOSE AND SCOPE
+
+This policy establishes mandatory information security requirements for all employees, contractors, and third parties accessing company systems and data. This policy must be followed to ensure compliance with regulatory requirements and protect organizational assets.
+
+2. POLICY STATEMENTS
+
+2.1 Data Classification
+All company data shall be classified according to its sensitivity level:
+- Public: Information intended for public disclosure
+- Internal: Information for internal company use only  
+- Confidential: Sensitive information requiring special protection
+- Restricted: Highly sensitive information with legal/regulatory implications
+
+2.2 Access Control
+- Access to systems and data must follow the principle of least privilege
+- User accounts shall be created only with proper authorization
+- Multi-factor authentication is required for all critical systems
+- Access reviews must be conducted quarterly
+
+2.3 Password Requirements
+- Passwords must be at least 12 characters long
+- Passwords must contain a combination of uppercase, lowercase, numbers, and special characters
+- Passwords must not be reused for the last 12 iterations
+- Default passwords must be changed immediately
+
+3. RESPONSIBILITIES
+
+3.1 Management Responsibilities
+- Ensure adequate resources for information security
+- Approve security policies and standards
+- Support security awareness training programs
+
+3.2 Employee Responsibilities  
+- Follow all information security policies and procedures
+- Report security incidents immediately
+- Complete required security training
+- Protect company information assets
+
+4. NON-COMPLIANCE
+
+Failure to comply with this policy may result in disciplinary action up to and including termination of employment or contract. Violations may also result in civil or criminal liability.
+
+5. RELATED DOCUMENTS
+
+- Information Security Standard IS-001
+- Data Handling Procedures DP-002
+- Incident Response Plan IRP-001
+
+Approved by: Chief Information Security Officer
+Date: January 15, 2024

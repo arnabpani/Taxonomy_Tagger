@@ -1,0 +1,2245 @@
+{
+  "Tier 1 Artifact": {
+    "Tier 1 Artifact Type": [
+      {
+        "GenericType": "Policy",
+        "Acronym": "POL",
+        "One-line definition (use when the document primarily…)": "States mandatory rules and intent from leadership; sets binding direction for the organization",
+        "Common altLabels / aliases": "Corporate Policy, Information Security Policy, HR Policy"
+      },
+      {
+        "GenericType": "Standard",
+        "Acronym": "STD",
+        "One-line definition (use when the document primarily…)": "Defines specific, measurable controls or configurations required to meet a policy",
+        "Common altLabels / aliases": "Technical Standard, Configuration Standard, Control Standard, Baseline"
+      },
+      {
+        "GenericType": "Procedure",
+        "Acronym": "PROC",
+        "One-line definition (use when the document primarily…)": "Describes the steps to carry out a recurring process end-to-end (who/what/when)",
+        "Common altLabels / aliases": "SOP Procedure, Operating Procedure"
+      },
+      {
+        "GenericType": "Work Instruction / SOP",
+        "Acronym": "SOP",
+        "One-line definition (use when the document primarily…)": "Provides detailed, step-by-step how-to for a single task or transaction",
+        "Common altLabels / aliases": "WI, How-To, Job Aid (detailed), Work Instruction"
+      },
+      {
+        "GenericType": "Guideline",
+        "Acronym": "GUIDE",
+        "One-line definition (use when the document primarily…)": "Offers recommended (non-mandatory) practices and tips; advisory in nature",
+        "Common altLabels / aliases": "Best Practice, Playbook, Advisory"
+      },
+      {
+        "GenericType": "Strategy",
+        "Acronym": "STRAT",
+        "One-line definition (use when the document primarily…)": "Explains long-term goals, principles, scope, and success metrics at portfolio or domain level",
+        "Common altLabels / aliases": "Strategic Plan, Vision, Strategic Intent"
+      },
+      {
+        "GenericType": "Roadmap",
+        "Acronym": "RDMP",
+        "One-line definition (use when the document primarily…)": "Shows time-phased view of initiatives/releases and major milestones",
+        "Common altLabels / aliases": "Release Roadmap, Timeline, Product Roadmap"
+      },
+      {
+        "GenericType": "Plan",
+        "Acronym": "PLAN",
+        "One-line definition (use when the document primarily…)": "Commits resources and schedule for a defined scope (project/initiative)",
+        "Common altLabels / aliases": "Project Plan, Implementation Plan, Transition Plan"
+      },
+      {
+        "GenericType": "Charter",
+        "Acronym": "CHTR",
+        "One-line definition (use when the document primarily…)": "Authorizes a project/program; defines scope, governance, roles, and success criteria",
+        "Common altLabels / aliases": "Project Charter, Program Charter"
+      },
+      {
+        "GenericType": "Proposal",
+        "Acronym": "PROP",
+        "One-line definition (use when the document primarily…)": "Asks for approval/funding to pursue an initiative or solution with options and benefits",
+        "Common altLabels / aliases": "Business Case, Concept Paper, Funding Request"
+      },
+      {
+        "GenericType": "Requirements",
+        "Acronym": "REQ",
+        "One-line definition (use when the document primarily…)": "States specific, verifiable needs the solution must meet",
+        "Common altLabels / aliases": "Requirements Specification, User Requirements, System Requirements, URS, SRS"
+      },
+      {
+        "GenericType": "Specification",
+        "Acronym": "SPEC",
+        "One-line definition (use when the document primarily…)": "Documents the technical characteristics, design, or behavior of a solution",
+        "Common altLabels / aliases": "Spec, Functional Specification (generic), Technical Specification (generic)"
+      },
+      {
+        "GenericType": "Design Document",
+        "Acronym": "DESIGN",
+        "One-line definition (use when the document primarily…)": "Illustrates how a solution is structured and its components interact",
+        "Common altLabels / aliases": "Solution Design, High Level Design, Low Level Design"
+      },
+      {
+        "GenericType": "Process Model",
+        "Acronym": "PMOD",
+        "One-line definition (use when the document primarily…)": "Models a process in diagrammatic form (e.g., flowchart, swimlane); minimal narrative",
+        "Common altLabels / aliases": "Process Flow Diagram, Process Map, Flowchart"
+      },
+      {
+        "GenericType": "Data Dictionary",
+        "Acronym": "DD",
+        "One-line definition (use when the document primarily…)": "Defines data elements, valid values, formats, and ownership",
+        "Common altLabels / aliases": "Data Catalog, Metadata Dictionary"
+      },
+      {
+        "GenericType": "Report",
+        "Acronym": "REPT",
+        "One-line definition (use when the document primarily…)": "Presents findings/metrics and narrative analysis for a defined period or topic",
+        "Common altLabels / aliases": "Analysis Report, Status Report"
+      },
+      {
+        "GenericType": "Dashboard",
+        "Acronym": "DASH",
+        "One-line definition (use when the document primarily…)": "Shows near-real-time KPIs and visual summaries with minimal narrative",
+        "Common altLabels / aliases": "Scorecard, KPI Dashboard"
+      },
+      {
+        "GenericType": "Meeting Minutes",
+        "Acronym": "MIN",
+        "One-line definition (use when the document primarily…)": "Summarizes meeting attendees, decisions, actions, and due dates",
+        "Common altLabels / aliases": "Minutes, MoM, Meeting Notes"
+      },
+      {
+        "GenericType": "Decision Register",
+        "Acronym": "DEC",
+        "One-line definition (use when the document primarily…)": "Records formal decisions with options, rationale, owner, and date",
+        "Common altLabels / aliases": "Decision Log, ADR (generic)"
+      },
+      {
+        "GenericType": "Risk Register",
+        "Acronym": "RISK",
+        "One-line definition (use when the document primarily…)": "Lists risks with probability/impact, owners, and mitigations",
+        "Common altLabels / aliases": "RAID (Risk section), Risk Log"
+      },
+      {
+        "GenericType": "Issue Log",
+        "Acronym": "ISSUE",
+        "One-line definition (use when the document primarily…)": "Tracks active issues/defects with status, owner, and resolution actions",
+        "Common altLabels / aliases": "Issue Register, Incident Log"
+      },
+      {
+        "GenericType": "Change Request",
+        "Acronym": "CRQ",
+        "One-line definition (use when the document primarily…)": "Requests an approved change to scope/config/process with impact and approvals",
+        "Common altLabels / aliases": "RFC, Change Ticket"
+      },
+      {
+        "GenericType": "Contract / Agreement",
+        "Acronym": "CNTR",
+        "One-line definition (use when the document primarily…)": "Legally binding terms between parties (commercial or confidentiality)",
+        "Common altLabels / aliases": "MSA, Agreement, NDA, Contract"
+      },
+      {
+        "GenericType": "Statement of Work",
+        "Acronym": "SOW",
+        "One-line definition (use when the document primarily…)": "Defines scope, deliverables, milestones, and pricing for contracted work",
+        "Common altLabels / aliases": "SoW, Work Statement"
+      },
+      {
+        "GenericType": "Runbook / Operations Manual",
+        "Acronym": "RBK",
+        "One-line definition (use when the document primarily…)": "Provides steady-state operational procedures (monitoring, jobs, recovery, support)",
+        "Common altLabels / aliases": "Operations Guide, Support Runbook, Operations Manual"
+      }
+    ],
+    "Tier 1 Ambiguity guardrails": [
+      {
+        "Ambiguity cluster": "Policy vs Standard vs Guideline",
+        "Tag as →": "Policy",
+        "Use when… (primary intent / signals)": "Mandatory, executive-approved rules with compliance expectation",
+        "Don’t tag as… when it is actually…": "Standard (control details) or Guideline (advice)",
+        "Detection cues / keywords": "must, \"shall\", \"policy\", \"non-compliance\"",
+        "Notes": "Policy sets intent; Standard implements it."
+      },
+      {
+        "Ambiguity cluster": "Policy vs Standard vs Guideline",
+        "Tag as →": "Standard",
+        "Use when… (primary intent / signals)": "Prescriptive control/config to satisfy a policy",
+        "Don’t tag as… when it is actually…": "Guideline (advisory) or Procedure (steps)",
+        "Detection cues / keywords": "standard, \"control\", \"configuration baseline\"",
+        "Notes": "Standard is testable/measurable."
+      },
+      {
+        "Ambiguity cluster": "Policy vs Standard vs Guideline",
+        "Tag as →": "Guideline",
+        "Use when… (primary intent / signals)": "Recommended practices; non-binding advice",
+        "Don’t tag as… when it is actually…": "Policy/Standard (mandatory)",
+        "Detection cues / keywords": "recommended, \"should\", \"best practice\"",
+        "Notes": "Use Guideline when optional."
+      },
+      {
+        "Ambiguity cluster": "Procedure vs Work Instruction",
+        "Tag as →": "Procedure",
+        "Use when… (primary intent / signals)": "Multi-step process across roles or systems",
+        "Don’t tag as… when it is actually…": "Work Instruction (single task)",
+        "Detection cues / keywords": "roles, \"pre/post conditions\", \"workflow\"",
+        "Notes": "Procedure can reference multiple WIs."
+      },
+      {
+        "Ambiguity cluster": "Procedure vs Work Instruction",
+        "Tag as →": "Work Instruction / SOP",
+        "Use when… (primary intent / signals)": "Detailed steps for one task/transaction",
+        "Don’t tag as… when it is actually…": "Procedure (end-to-end flow)",
+        "Detection cues / keywords": "step 1/2/3, \"click\", \"field\", \"transaction\"",
+        "Notes": "WI is task-level granularity."
+      },
+      {
+        "Ambiguity cluster": "Strategy vs Plan vs Roadmap",
+        "Tag as →": "Strategy",
+        "Use when… (primary intent / signals)": "Long-term goals, principles, and positioning",
+        "Don’t tag as… when it is actually…": "Plan (commit & resources) or Roadmap (timeline)",
+        "Detection cues / keywords": "vision, \"principles\", \"objectives\"",
+        "Notes": "Strategy precedes Plan/Roadmap."
+      },
+      {
+        "Ambiguity cluster": "Strategy vs Plan vs Roadmap",
+        "Tag as →": "Plan",
+        "Use when… (primary intent / signals)": "Concrete commitments—scope, schedule, resources",
+        "Don’t tag as… when it is actually…": "Strategy (why) or Roadmap (visual timeline)",
+        "Detection cues / keywords": "project plan, \"schedule\", \"resources\", \"go-live\"",
+        "Notes": "Plan is the \"what\" & \"when\" of a project."
+      },
+      {
+        "Ambiguity cluster": "Strategy vs Plan vs Roadmap",
+        "Tag as →": "Roadmap",
+        "Use when… (primary intent / signals)": "Visual, time-phased view of releases/initiatives",
+        "Don’t tag as… when it is actually…": "Plan (detailed commitment)",
+        "Detection cues / keywords": "roadmap, \"timeline\", \"milestones\", \"release\"",
+        "Notes": "Roadmap is for communication/sequencing."
+      },
+      {
+        "Ambiguity cluster": "Plan vs Charter",
+        "Tag as →": "Charter",
+        "Use when… (primary intent / signals)": "Official authorization for a project/program",
+        "Don’t tag as… when it is actually…": "Plan (execution details)",
+        "Detection cues / keywords": "charter, \"program\", \"sponsor\", \"governance\"",
+        "Notes": "Charter authorizes; Plan executes."
+      },
+      {
+        "Ambiguity cluster": "Proposal vs Plan",
+        "Tag as →": "Proposal",
+        "Use when… (primary intent / signals)": "Asking for approval/funding; presents a case",
+        "Don’t tag as… when it is actually…": "Plan (already-approved commitment)",
+        "Detection cues / keywords": "business case, \"funding request\", \"options analysis\"",
+        "Notes": "Proposal seeks approval; Plan assumes it."
+      },
+      {
+        "Ambiguity cluster": "Requirements vs Spec vs Design",
+        "Tag as →": "Requirements",
+        "Use when… (primary intent / signals)": "States verifiable needs from a business or system perspective",
+        "Don’t tag as… when it is actually…": "Spec (details) or Design (how)",
+        "Detection cues / keywords": "user requirements, \"URS\", \"SRS\", \"needs\"",
+        "Notes": "Requirements are the 'what'."
+      },
+      {
+        "Ambiguity cluster": "Requirements vs Spec vs Design",
+        "Tag as →": "Specification",
+        "Use when… (primary intent / signals)": "Detailed definition of characteristics or behavior",
+        "Don’t tag as… when it is actually…": "Requirements (high-level needs) or Design (how)",
+        "Detection cues / keywords": "functional spec, \"tech spec\", \"spec\"",
+        "Notes": "Spec is a detailed 'what'."
+      },
+      {
+        "Ambiguity cluster": "Requirements vs Spec vs Design",
+        "Tag as →": "Design Document",
+        "Use when… (primary intent / signals)": "Illustrates the structure and solution architecture",
+        "Don’t tag as… when it is actually…": "Requirements (needs) or Spec (behavior)",
+        "Detection cues / keywords": "solution design, \"HLD\", \"architecture\"",
+        "Notes": "Design is the 'how'."
+      },
+      {
+        "Ambiguity cluster": "Report vs Dashboard",
+        "Tag as →": "Report",
+        "Use when… (primary intent / signals)": "Narrative analysis of data/findings over a period",
+        "Don’t tag as… when it is actually…": "Dashboard (visual only)",
+        "Detection cues / keywords": "analysis, \"findings\", \"narrative\", \"report\"",
+        "Notes": "Report has more prose/context."
+      },
+      {
+        "Ambiguity cluster": "Report vs Dashboard",
+        "Tag as →": "Dashboard",
+        "Use when… (primary intent / signals)": "Visual display of KPIs/metrics with minimal narrative",
+        "Don’t tag as… when it is actually…": "Report (narrative)",
+        "Detection cues / keywords": "dashboard, \"KPI\", \"scorecard\"",
+        "Notes": "Dashboard is for at-a-glance status."
+      },
+      {
+        "Ambiguity cluster": "Minutes vs Decision Register",
+        "Tag as →": "Meeting Minutes",
+        "Use when… (primary intent / signals)": "Summary of attendees, actions, and due dates",
+        "Don’t tag as… when it is actually…": "Decision Register (formal decision)",
+        "Detection cues / keywords": "minutes, \"actions\", \"attendees\"",
+        "Notes": "Minutes may reference decisions."
+      },
+      {
+        "Ambiguity cluster": "Minutes vs Decision Register",
+        "Tag as →": "Decision Register",
+        "Use when… (primary intent / signals)": "Formal decisions with options, rationale, owner",
+        "Don’t tag as… when it is actually…": "Minutes (recap)",
+        "Detection cues / keywords": "decision #, \"approved option\", \"rationale\"",
+        "Notes": "Use for authoritative record."
+      },
+      {
+        "Ambiguity cluster": "Risk Register vs Issue Log",
+        "Tag as →": "Risk Register",
+        "Use when… (primary intent / signals)": "Potential events with probability/impact and mitigation",
+        "Don’t tag as… when it is actually…": "Issue Log (has already occurred)",
+        "Detection cues / keywords": "probability, \"impact\", \"mitigation\"",
+        "Notes": "Forward-looking."
+      },
+      {
+        "Ambiguity cluster": "Risk Register vs Issue Log",
+        "Tag as →": "Issue Log",
+        "Use when… (primary intent / signals)": "Current problems needing resolution",
+        "Don’t tag as… when it is actually…": "Risk Register (potential future)",
+        "Detection cues / keywords": "issue, \"workaround\", \"resolution\"",
+        "Notes": "Now-focused."
+      },
+      {
+        "Ambiguity cluster": "Contract vs SOW",
+        "Tag as →": "Contract / Agreement",
+        "Use when… (primary intent / signals)": "Legal master terms & obligations",
+        "Don’t tag as… when it is actually…": "SOW (scope/deliverables)",
+        "Detection cues / keywords": "agreement, \"terms\", \"MSA\", \"NDA\"",
+        "Notes": "Contract governs relationship."
+      },
+      {
+        "Ambiguity cluster": "Contract vs SOW",
+        "Tag as →": "Statement of Work",
+        "Use when… (primary intent / signals)": "Scope, deliverables, schedule, pricing under a contract",
+        "Don’t tag as… when it is actually…": "Contract (master terms)",
+        "Detection cues / keywords": "SOW, \"deliverables\", \"milestones\", \"rates\"",
+        "Notes": "SOW executes the contract."
+      },
+      {
+        "Ambiguity cluster": "Change Request vs Decision Register",
+        "Tag as →": "Change Request",
+        "Use when… (primary intent / signals)": "Formal request to alter baseline with impact and approvals",
+        "Don’t tag as… when it is actually…": "Decision Register (records decision)",
+        "Detection cues / keywords": "RFC, \"impact analysis\", \"approval workflow\"",
+        "Notes": "CR may point to the decision ID."
+      },
+      {
+        "Ambiguity cluster": "Procedure/Work Instruction vs Runbook",
+        "Tag as →": "Runbook / Operations Manual",
+        "Use when… (primary intent / signals)": "Steady-state IT ops tasks (monitoring, jobs, recovery)",
+        "Don’t tag as… when it is actually…": "Procedure/WI (business task)",
+        "Detection cues / keywords": "operations, \"job schedule\", \"recovery\"",
+        "Notes": "Runbook targets IT/ops audience."
+      }
+    ],
+    "Tier 1 synonyms": [
+      {
+        "Generic Document Type": "Policy",
+        "Common altLabels / aliases": "Corporate Policy,Information Security Policy,IS Policy,HR Policy,Data Policy",
+        "Notes": "Use for mandatory governance documents"
+      },
+      {
+        "Generic Document Type": "Standard",
+        "Common altLabels / aliases": "Control Standard,Technical Standard,Configuration Standard,Baseline,Hardening Standard",
+        "Notes": "Measurable, testable controls"
+      },
+      {
+        "Generic Document Type": "Procedure",
+        "Common altLabels / aliases": "Operating Procedure,Process Procedure,SOP Procedure",
+        "Notes": "Multi-step across roles"
+      },
+      {
+        "Generic Document Type": "Work Instruction / SOP",
+        "Common altLabels / aliases": "WI,How-To,Job Aid (detailed),Task Instruction,Workstep Guide",
+        "Notes": "Single task instructions"
+      },
+      {
+        "Generic Document Type": "Guideline",
+        "Common altLabels / aliases": "Best Practice,Guide,Playbook,Advisory,Recommended Practice",
+        "Notes": "Non-binding advice"
+      },
+      {
+        "Generic Document Type": "Strategy",
+        "Common altLabels / aliases": "Strategic Plan,Vision,Strategy Paper,Strategic Intent",
+        "Notes": "High-level direction"
+      },
+      {
+        "Generic Document Type": "Roadmap",
+        "Common altLabels / aliases": "Release Roadmap,Timeline,Milestone Plan,Product Roadmap",
+        "Notes": "Time-phased view"
+      },
+      {
+        "Generic Document Type": "Plan",
+        "Common altLabels / aliases": "Project Plan,Implementation Plan,Migration Plan,Transition Plan,Work Plan",
+        "Notes": "Commitments & schedule"
+      },
+      {
+        "Generic Document Type": "Charter",
+        "Common altLabels / aliases": "Project Charter,Program Charter,Initiation Document",
+        "Notes": "Authorization to start"
+      },
+      {
+        "Generic Document Type": "Proposal",
+        "Common altLabels / aliases": "Business Case,Concept Paper,Funding Request,Recommendation",
+        "Notes": "Asking for approval/funding"
+      },
+      {
+        "Generic Document Type": "Requirements",
+        "Common altLabels / aliases": "Requirements Specification,User Requirements,System Requirements,URS,SRS",
+        "Notes": "Verifiable needs"
+      },
+      {
+        "Generic Document Type": "Specification",
+        "Common altLabels / aliases": "Spec,Product Specification,Functional Specification (generic),Technical Specification (generic)",
+        "Notes": "Testable characteristics/behavior"
+      },
+      {
+        "Generic Document Type": "Design Document",
+        "Common altLabels / aliases": "Solution Design,High Level Design,Low Level Design,Architecture Description",
+        "Notes": "How it will work"
+      },
+      {
+        "Generic Document Type": "Process Model",
+        "Common altLabels / aliases": "Process Flow Diagram,Process Map,Flowchart,Swimlane Diagram,Value Stream Map",
+        "Notes": "Diagrammatic process model"
+      },
+      {
+        "Generic Document Type": "Data Dictionary",
+        "Common altLabels / aliases": "Data Catalog,Metadata Dictionary,Data Definitions,Data Glossary",
+        "Notes": "List of data elements"
+      },
+      {
+        "Generic Document Type": "Report",
+        "Common altLabels / aliases": "Analysis Report,Status Report,Management Report,Whitepaper",
+        "Notes": "Narrative + figures"
+      },
+      {
+        "Generic Document Type": "Dashboard",
+        "Common altLabels / aliases": "Scorecard,KPI Dashboard,Metrics Board,Performance Dashboard",
+        "Notes": "Visual KPIs"
+      },
+      {
+        "Generic Document Type": "Meeting Minutes",
+        "Common altLabels / aliases": "Minutes,MoM,Meeting Notes,Notes of Meeting",
+        "Notes": "Action-oriented recap"
+      },
+      {
+        "Generic Document Type": "Decision Register",
+        "Common altLabels / aliases": "Decision Log,Decision Record,ADR (generic),Decision Tracker",
+        "Notes": "Formal decision entries"
+      },
+      {
+        "Generic Document Type": "Risk Register",
+        "Common altLabels / aliases": "Risk Log,Risk Matrix,RAID (Risk),Risk Register Spreadsheet",
+        "Notes": "Potential events + mitigation"
+      },
+      {
+        "Generic Document Type": "Issue Log",
+        "Common altLabels / aliases": "Issue Register,Incident Log,Action Log",
+        "Notes": "Active problems"
+      },
+      {
+        "Generic Document Type": "Change Request",
+        "Common altLabels / aliases": "RFC,Change Ticket,Change Proposal,Change Order",
+        "Notes": "Formal change request"
+      },
+      {
+        "Generic Document Type": "Contract / Agreement",
+        "Common altLabels / aliases": "MSA,Agreement,NDA,Contract,Master Agreement",
+        "Notes": "Legal instrument"
+      },
+      {
+        "Generic Document Type": "Statement of Work",
+        "Common altLabels / aliases": "SOW,SoW,Work Statement,Engagement SOW",
+        "Notes": "Scope & deliverables under contract"
+      },
+      {
+        "Generic Document Type": "Runbook / Operations Manual",
+        "Common altLabels / aliases": "Operations Guide,Support Runbook,Operations Manual,Ops SOP",
+        "Notes": "Steady-state IT/ops procedures"
+      }
+    ]
+  },
+  "Domain Specific Artifact": {
+    "Domain Specific Synonyms": [
+      {
+        "ArtifactType": "Business Requirements Document",
+        "Synonyms": "Requirements Document,Business Requirements Specification,BRS,Business Spec,Requirements Spec",
+        "Notes": "Use for business goals/scope; not solution detail"
+      },
+      {
+        "ArtifactType": "Fit/Gap Analysis",
+        "Synonyms": "Fit Gap,Fit-to-Standard,Fit to Standard,F2S,Solution Fit Gap,FG",
+        "Notes": "Comparison of baseline vs target capabilities"
+      },
+      {
+        "ArtifactType": "Process Definition Document",
+        "Synonyms": "Process Design Document,Process Design,E2E Design,Process Description,Process Narrative",
+        "Notes": "Process baseline for config/testing"
+      },
+      {
+        "ArtifactType": "Business Process Model",
+        "Synonyms": "Process Map,Process Model,BPMN Diagram,Process Flow,Swimlane Diagram,Signavio Model",
+        "Notes": "Model/diagram form (not narrative)"
+      },
+      {
+        "ArtifactType": "Configuration Rationale Document",
+        "Synonyms": "Design Rationale,Rationale,Options Analysis,Decision Rationale,Why Document",
+        "Notes": "Explains “why” choices were made"
+      },
+      {
+        "ArtifactType": "Configuration Design Document",
+        "Synonyms": "Configuration Guide,Config Guide,IMG Settings,SPRO Settings,Configuration Specification,Config Workbook",
+        "Notes": "Explains “what/how” to configure"
+      },
+      {
+        "ArtifactType": "Architecture Blueprint",
+        "Synonyms": "Solution Blueprint,High-Level Design,HLD,High Level Architecture,HLA,Architecture Overview,Solution Architecture",
+        "Notes": "System/solution-level view"
+      },
+      {
+        "ArtifactType": "Functional Specification Document",
+        "Synonyms": "Functional Specification,FS,Functional Spec,Functional Design Specification,FDS,Functional Design",
+        "Notes": "Behavioral requirements for build"
+      },
+      {
+        "ArtifactType": "Technical Specification Document",
+        "Synonyms": "Technical Specification,TS,Technical Design,Technical Design Specification,TDS,Low-Level Design,LLD",
+        "Notes": "Internal build specs"
+      },
+      {
+        "ArtifactType": "Interface Specification Document",
+        "Synonyms": "IDoc/BAPI/OData Spec,Interface Document",
+        "Notes": "Technical interface spec"
+      },
+      {
+        "ArtifactType": "Conversion Spec",
+        "Synonyms": "Migration Spec,Conversion Document,Data Migration Spec",
+        "Notes": "How data is moved from legacy to new"
+      },
+      {
+        "ArtifactType": "Test Strategy / Plan",
+        "Synonyms": "Testing Plan,Testing Strategy,Test Approach",
+        "Notes": "High-level plan for testing activities"
+      },
+      {
+        "ArtifactType": "Test Script Document",
+        "Synonyms": "Test Script,Test Procedure,Test Case,System Test Script,SIT Script",
+        "Notes": "Detailed, step-by-step test execution"
+      },
+      {
+        "ArtifactType": "Cutover / Deployment Plan",
+        "Synonyms": "Deployment Plan,Transition Plan,Cutover Schedule,Cutover Checklist",
+        "Notes": "Go-live sequencing"
+      },
+      {
+        "ArtifactType": "Runbook / Operations Guide",
+        "Synonyms": "Operations Runbook,Support Runbook,Ops Guide,Operations Manual,Operating Procedure,Ops SOP",
+        "Notes": "IT/operations procedures"
+      },
+      {
+        "ArtifactType": "Decision Log",
+        "Synonyms": "Architecture Decision Record,ADR,Decision Record,Decision Register,Decision Tracker",
+        "Notes": "Formal decision entries"
+      },
+      {
+        "ArtifactType": "RAID Log",
+        "Synonyms": "Risk Log,Issue Log,Dependency Log,Assumptions Log,RAID Register",
+        "Notes": "Program risk/issue tracking"
+      },
+      {
+        "ArtifactType": "Meeting Minutes",
+        "Synonyms": "Minutes,MoM,Meeting Notes,Notes of Meeting,Action Minutes",
+        "Notes": "Meeting summaries"
+      },
+      {
+        "ArtifactType": "Training Material",
+        "Synonyms": "Training Content,Enable Now Content,Job Aid,Quick Reference,Learning Asset,User Guide",
+        "Notes": "End-user enablement materials"
+      },
+      {
+        "ArtifactType": "Change Request Document",
+        "Synonyms": "Change Request,CR,RFC,Change Ticket,ChaRM Request,Change Proposal",
+        "Notes": "Formal change request"
+      },
+      {
+        "ArtifactType": "Security Role Matrix",
+        "Synonyms": "Role Design,Authorization Matrix,Auth Matrix,SoD Matrix,Security Design",
+        "Notes": "Security/authorization design"
+      },
+      {
+        "ArtifactType": "Architecture Blueprint",
+        "Synonyms": "Reference Architecture,Architecture Pattern,Platform Blueprint,System Blueprint,Target Architecture",
+        "Notes": "Keep as altLabels if meaning aligns"
+      },
+      {
+        "ArtifactType": "Technical Specification Document",
+        "Synonyms": "Build Spec,Component Design,Technical Build Document,Dev Spec,Low Level Spec",
+        "Notes": "Use if equivalent to TSD"
+      },
+      {
+        "ArtifactType": "Functional Specification Document",
+        "Synonyms": "User Story Spec,Functional Requirements,Behavior Spec,BRD to FS Trace",
+        "Notes": "Only if doc truly functions as FS"
+      }
+    ],
+    "Domain Ambiguity guardrails": [
+      {
+        "Ambiguity cluster": "BRD vs PDD vs FSD",
+        "Tag as →": "BRD",
+        "Use when… (primary intent / signals)": "Business goals, scope, success criteria; problem/need statement; not solution detail",
+        "Don’t tag as… when it is actually…": "PDD (process baseline) or FSD (build requirements)",
+        "Detection cues / keywords": "business requirements, \"scope\", \"objectives\", \"non-functional\"",
+        "Notes": "BRD may reference future FSD/PDD—primary intent decides."
+      },
+      {
+        "Ambiguity cluster": "BRD vs PDD vs FSD",
+        "Tag as →": "PDD",
+        "Use when… (primary intent / signals)": "End-to-end process steps, inputs/outputs, controls; baseline for config & testing",
+        "Don’t tag as… when it is actually…": "BRD (why) or WI/RBK (execution steps)",
+        "Detection cues / keywords": "process steps, \"E2E\", \"inputs/outputs\", \"control\"",
+        "Notes": "If both narrative and model exist: BPMN = model; PDD = narrative."
+      },
+      {
+        "Ambiguity cluster": "BRD vs PDD vs FSD",
+        "Tag as →": "FSD",
+        "Use when… (primary intent / signals)": "What the system must do; rules & acceptance criteria for build",
+        "Don’t tag as… when it is actually…": "TSD (how it’s built)",
+        "Detection cues / keywords": "functional spec, \"business rules\", \"acceptance criteria\", \"use case\"",
+        "Notes": "If one file mixes FS/TS, choose dominant intent; add other as keyword."
+      },
+      {
+        "Ambiguity cluster": "FSD vs TSD",
+        "Tag as →": "FSD",
+        "Use when… (primary intent / signals)": "Behavioral spec at business level; black-box view",
+        "Don’t tag as… when it is actually…": "TSD (technical internals)",
+        "Detection cues / keywords": "FS, \"behavior\", \"user story\", \"validation rules\"",
+        "Notes": "—"
+      },
+      {
+        "Ambiguity cluster": "FSD vs TSD",
+        "Tag as →": "TSD",
+        "Use when… (primary intent / signals)": "Technical internals: objects, tables, APIs, error handling, mappings",
+        "Don’t tag as… when it is actually…": "FSD (business behavior)",
+        "Detection cues / keywords": "technical design/spec, \"Z* program\", \"table/structure\", \"class/method\"",
+        "Notes": "If it’s a single WRICEF object, consider WRICEF instead of broad TSD."
+      },
+      {
+        "Ambiguity cluster": "CRD vs CDD",
+        "Tag as →": "CRD",
+        "Use when… (primary intent / signals)": "Why a configuration choice was made (options, rationale, decision)",
+        "Don’t tag as… when it is actually…": "CDD (what was configured)",
+        "Detection cues / keywords": "rationale, \"options analysis\", \"why document\"",
+        "Notes": "—"
+      },
+      {
+        "Ambiguity cluster": "CRD vs CDD",
+        "Tag as →": "CDD",
+        "Use when… (primary intent / signals)": "What configuration was done (settings, values, IMG path)",
+        "Don’t tag as… when it is actually…": "CRD (why a choice was made)",
+        "Detection cues / keywords": "IMG, \"SPRO\", \"configuration guide\", \"settings\"",
+        "Notes": "—"
+      },
+      {
+        "Ambiguity cluster": "BPMN vs PDD",
+        "Tag as →": "BPMN",
+        "Use when… (primary intent / signals)": "Visual process model, usually formal BPMN",
+        "Don’t tag as… when it is actually…": "PDD (narrative description)",
+        "Detection cues / keywords": "process map, \"swimlane diagram\", \"flowchart\"",
+        "Notes": "BPMN is a specific notation."
+      },
+      {
+        "Ambiguity cluster": "BPMN vs PDD",
+        "Tag as →": "PDD",
+        "Use when… (primary intent / signals)": "Narrative description of process steps/flow",
+        "Don’t tag as… when it is actually…": "BPMN (diagram)",
+        "Detection cues / keywords": "process description, \"narrative\", \"end-to-end\"",
+        "Notes": "PDD provides prose/context to the process."
+      },
+      {
+        "Ambiguity cluster": "FGA vs PDD",
+        "Tag as →": "FGA",
+        "Use when… (primary intent / signals)": "Comparison of SAP standard vs business need; gaps noted",
+        "Don’t tag as… when it is actually…": "PDD (pure process doc)",
+        "Detection cues / keywords": "fit/gap, \"fit-to-standard\", \"workshop\"",
+        "Notes": "FGA may reference a PDD but focuses on gaps."
+      },
+      {
+        "Ambiguity cluster": "FGA vs PDD",
+        "Tag as →": "PDD",
+        "Use when… (primary intent / signals)": "Detailed process steps as a baseline for config",
+        "Don’t tag as… when it is actually…": "FGA (comparison/gaps)",
+        "Detection cues / keywords": "E2E process, \"inputs/outputs\"",
+        "Notes": "PDD defines the baseline; FGA notes deviations from it."
+      },
+      {
+        "Ambiguity cluster": "Test Plan vs Test Case",
+        "Tag as →": "Test Strategy / Plan",
+        "Use when… (primary intent / signals)": "High-level test approach, scope, roles, environments",
+        "Don’t tag as… when it is actually…": "Test Script (execution steps)",
+        "Detection cues / keywords": "test plan, \"test scope\", \"test phases\", \"test strategy\"",
+        "Notes": "Plan is high-level; case is specific."
+      },
+      {
+        "Ambiguity cluster": "Test Plan vs Test Case",
+        "Tag as →": "Test Script Document",
+        "Use when… (primary intent / signals)": "Step-by-step instructions for test execution",
+        "Don’t tag as… when it is actually…": "Test Plan (high-level)",
+        "Detection cues / keywords": "test script, \"test steps\", \"expected results\"",
+        "Notes": "Test case is the granular how-to."
+      },
+      {
+        "Ambiguity cluster": "TS vs FS",
+        "Tag as →": "Functional Spec",
+        "Use when… (primary intent / signals)": "Behavioral/requirements focus; what the system needs to do",
+        "Don’t tag as… when it is actually…": "Technical Spec (how it’s built)",
+        "Detection cues / keywords": "user story, \"acceptance criteria\", \"functional spec\"",
+        "Notes": "FS = business view."
+      },
+      {
+        "Ambiguity cluster": "TS vs FS",
+        "Tag as →": "Technical Spec",
+        "Use when… (primary intent / signals)": "Technical build details; objects, code, mappings",
+        "Don’t tag as… when it is actually…": "Functional Spec (business needs)",
+        "Detection cues / keywords": "technical design, \"interface mapping\", \"Z-object\"",
+        "Notes": "TS = developer view."
+      },
+      {
+        "Ambiguity cluster": "Runbook vs WI vs TM",
+        "Tag as →": "RBK",
+        "Use when… (primary intent / signals)": "Operations & support procedures (monitoring, jobs, recovery)",
+        "Don’t tag as… when it is actually…": "WI (end-user steps) or TM (learning asset)",
+        "Detection cues / keywords": "operations, \"job schedule\", \"monitoring\", \"recovery\"",
+        "Notes": "RBK is for steady-state/IT ops."
+      },
+      {
+        "Ambiguity cluster": "DEC vs RAID vs MIN",
+        "Tag as →": "DEC",
+        "Use when… (primary intent / signals)": "Formal decision record with options, rationale, owners, decision ID",
+        "Don’t tag as… when it is actually…": "MIN (meeting notes) or RAID (risks/issues)",
+        "Detection cues / keywords": "decision #/ID, \"options\", \"selected option\", \"rationale\"",
+        "Notes": "DEC often referenced by CRD/CRQ."
+      },
+      {
+        "Ambiguity cluster": "DEC vs RAID vs MIN",
+        "Tag as →": "RAID",
+        "Use when… (primary intent / signals)": "Risks/Assumptions/Issues/Dependencies tracking",
+        "Don’t tag as… when it is actually…": "DEC (decision) or MIN (notes)",
+        "Detection cues / keywords": "risk/issue/dependency, \"mitigation\", \"owner\", \"status\"",
+        "Notes": "—"
+      },
+      {
+        "Ambiguity cluster": "DEC vs RAID vs MIN",
+        "Tag as →": "MIN",
+        "Use when… (primary intent / signals)": "Meeting summary: attendees, decisions, actions, due dates",
+        "Don’t tag as… when it is actually…": "DEC or RAID",
+        "Detection cues / keywords": "minutes, \"MoM\", \"actions\", \"next steps\"",
+        "Notes": "MIN may link to DEC/RAID; it isn’t itself a decision or risk log."
+      },
+      {
+        "Ambiguity cluster": "ARB vs TSD",
+        "Tag as →": "ARB",
+        "Use when… (primary intent / signals)": "Solution/architecture blueprint, patterns, NFRs, integration topology",
+        "Don’t tag as… when it is actually…": "TSD (component-level build spec)",
+        "Detection cues / keywords": "blueprint, \"HLD/HLA\", \"architecture view\", \"NFR\"",
+        "Notes": "ARB = system-level; TSD = component-level."
+      },
+      {
+        "Ambiguity cluster": "CRQ vs DEC",
+        "Tag as →": "CRQ",
+        "Use when… (primary intent / signals)": "Request to change scope/config/code with impact, estimate, approvals",
+        "Don’t tag as… when it is actually…": "DEC (decision rationale)",
+        "Detection cues / keywords": "change request, \"RFC\", \"estimate\", \"approval workflow\", \"ChaRM\"",
+        "Notes": "CRQ may reference DEC that authorized it."
+      },
+      {
+        "Ambiguity cluster": "SRM vs TM/WI",
+        "Tag as →": "SRM",
+        "Use when… (primary intent / signals)": "Role/authorization design (auth objects, catalogs, SoD)",
+        "Don’t tag as… when it is actually…": "TM/WI (how to perform tasks)",
+        "Detection cues / keywords": "role matrix, \"authorization\", \"SoD\"",
+        "Notes": "—"
+      },
+      {
+        "Ambiguity cluster": "SRM vs TM/WI",
+        "Tag as →": "TM",
+        "Use when… (primary intent / signals)": "Learning/training content for end-users",
+        "Don’t tag as… when it is actually…": "SRM (role design) or WI (single task)",
+        "Detection cues / keywords": "training, \"job aid\", \"simulation\", \"quick reference\"",
+        "Notes": "—"
+      }
+    ],
+    "Domain Specific Artifact type": [
+      {
+        "ArtifactType": "Business Requirements Document",
+        "Acronym": "BRD",
+        "One-line definition (use when the document primarily…)": "states business goals, scope, constraints, and success criteria at a business level",
+        "Common altLabels / aliases": "Requirements Doc, Business Spec"
+      },
+      {
+        "ArtifactType": "Fit/Gap Analysis",
+        "Acronym": "FGA",
+        "One-line definition (use when the document primarily…)": "compares current vs target capabilities and records gaps, resolutions, and impacts",
+        "Common altLabels / aliases": "Fit-Gap, Fit-to-Standard"
+      },
+      {
+        "ArtifactType": "Process Definition Document",
+        "Acronym": "PDD",
+        "One-line definition (use when the document primarily…)": "defines end-to-end business process steps, inputs/outputs, controls, and owners",
+        "Common altLabels / aliases": "Process Design, E2E Design"
+      },
+      {
+        "ArtifactType": "Business Process Model",
+        "Acronym": "BPMN",
+        "One-line definition (use when the document primarily…)": "models process logic in BPMN (typically Signavio), linked to solutions",
+        "Common altLabels / aliases": "Process Map, Flow Diagram"
+      },
+      {
+        "ArtifactType": "Configuration Rationale Document",
+        "Acronym": "CRD",
+        "One-line definition (use when the document primarily…)": "explains the why behind key configuration choices and parameters",
+        "Common altLabels / aliases": "Config Rationale, Design Rationale"
+      },
+      {
+        "ArtifactType": "Configuration Design Document",
+        "Acronym": "CDD",
+        "One-line definition (use when the document primarily…)": "documents the what/how of SAP configuration (IMG settings, values)",
+        "Common altLabels / aliases": "Config Guide, IMG Settings"
+      },
+      {
+        "ArtifactType": "Architecture Blueprint",
+        "Acronym": "ARB",
+        "One-line definition (use when the document primarily…)": "outlines solution architecture, integrations, patterns, and non-functionals",
+        "Common altLabels / aliases": "Solution Blueprint, HLA/HLD"
+      },
+      {
+        "ArtifactType": "Functional Specification Document",
+        "Acronym": "FSD",
+        "One-line definition (use when the document primarily…)": "specifies functional behavior the build must meet (rules, UX, acceptance)",
+        "Common altLabels / aliases": "Func Spec, FS"
+      },
+      {
+        "ArtifactType": "Technical Specification Document",
+        "Acronym": "TSD",
+        "One-line definition (use when the document primarily…)": "specifies build details (objects, code logic, tables, mappings, error handling)",
+        "Common altLabels / aliases": "Tech Spec, TS, Technical Design"
+      },
+      {
+        "ArtifactType": "Interface Specification Document",
+        "Acronym": "ISD",
+        "One-line definition (use when the document primarily…)": "defines interface purpose, endpoints, payloads, frequency, error scenarios",
+        "Common altLabels / aliases": "IDoc/BAPI/OData Spec, Interface Document"
+      },
+      {
+        "ArtifactType": "Conversion Spec",
+        "Acronym": "CV",
+        "One-line definition (use when the document primarily…)": "describes data fields and value mappings for a data migration object",
+        "Common altLabels / aliases": "Migration Spec"
+      },
+      {
+        "ArtifactType": "Cutover / Deployment Plan",
+        "Acronym": "CPD",
+        "One-line definition (use when the document primarily…)": "sequences cutover activities, timings, dependencies, and checkpoints",
+        "Common altLabels / aliases": "Cutover Schedule, Go-Live Plan"
+      },
+      {
+        "ArtifactType": "Runbook / Operations Guide",
+        "Acronym": "RBK",
+        "One-line definition (use when the document primarily…)": "provides steady-state operational procedures (monitoring, jobs, recovery)",
+        "Common altLabels / aliases": "Ops Guide, Support Runbook"
+      },
+      {
+        "ArtifactType": "Decision Log",
+        "Acronym": "DEC",
+        "One-line definition (use when the document primarily…)": "captures design/ scope decisions with options, rationale, and owners",
+        "Common altLabels / aliases": "Architecture Decision Record (ADR)"
+      },
+      {
+        "ArtifactType": "RAID Log",
+        "Acronym": "RAID",
+        "One-line definition (use when the document primarily…)": "tracks Risks, Assumptions, Issues, Dependencies with status/actions",
+        "Common altLabels / aliases": "Risk Log, Issue Log"
+      },
+      {
+        "ArtifactType": "Meeting Minutes",
+        "Acronym": "MIN",
+        "One-line definition (use when the document primarily…)": "summarizes meetings (attendees, decisions, actions, due dates)",
+        "Common altLabels / aliases": "MoM, Notes"
+      },
+      {
+        "ArtifactType": "Training Material",
+        "Acronym": "TM",
+        "One-line definition (use when the document primarily…)": "enables end-users (job aids, simulations, courses, quick refs)",
+        "Common altLabels / aliases": "Enable Now Content, Learning Asset"
+      },
+      {
+        "ArtifactType": "Change Request Document",
+        "Acronym": "CRQ",
+        "One-line definition (use when the document primarily…)": "requests a change with impact, estimate, approvals (often via ChaRM)",
+        "Common altLabels / aliases": "CR, RFC, Change Ticket"
+      },
+      {
+        "ArtifactType": "Security Role Matrix",
+        "Acronym": "SRM",
+        "One-line definition (use when the document primarily…)": "defines roles, auth objects, transactions/Fiori catalogs, SoD notes",
+        "Common altLabels / aliases": "Role Design, Authorization Matrix"
+      },
+      {
+        "ArtifactType": "WRICEF Object Specification",
+        "Acronym": "WRICEF",
+        "One-line definition (use when the document primarily…)": "specifies a single Workflow/Report/Interface/Conversion/Enhancement/Form",
+        "Common altLabels / aliases": "RICEFW, Object Spec"
+      },
+      {
+        "ArtifactType": "Test Case Document",
+        "Acronym": "TC",
+        "One-line definition (use when the document primarily…)": "details test steps, data, expected results for SIT/Regression",
+        "Common altLabels / aliases": "Test Script, Test Procedure"
+      },
+      {
+        "ArtifactType": "UAT Script",
+        "Acronym": "UAT",
+        "One-line definition (use when the document primarily…)": "provides business-facing acceptance scenarios and criteria",
+        "Common altLabels / aliases": "User Acceptance Test, UAT Case"
+      },
+      {
+        "ArtifactType": "Defect Record",
+        "Acronym": "DEF",
+        "One-line definition (use when the document primarily…)": "records a defect, reproduction steps, severity, and resolution",
+        "Common altLabels / aliases": "Incident, Bug"
+      },
+      {
+        "ArtifactType": "Reconciliation Log",
+        "Acronym": "RCL",
+        "One-line definition (use when the document primarily…)": "tracks post-load data balancing/reconciliation activities",
+        "Common altLabels / aliases": "Balancing Report"
+      }
+    ]
+  },
+  "LifecyclePhase_Rules": [
+    {
+      "Facet": "LifecyclePhase",
+      "Rule ID": "LP-001",
+      "If (signals)": "File date within Discover timeline OR doc title contains \"Vision, Business Case\"",
+      "Set (value)": "Discover",
+      "Weight": 0.4,
+      "Anti-signals": "Explore|Realize|Deploy",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(discover|vision|business\\s+case)\\b"
+    },
+    {
+      "Facet": "LifecyclePhase",
+      "Rule ID": "LP-002",
+      "If (signals)": "Title contains \"Project Preparation, Mobilization, Plan\"",
+      "Set (value)": "Prepare",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(prepare|mobilization|mobilisation|project\\s+plan)\\b"
+    },
+    {
+      "Facet": "LifecyclePhase",
+      "Rule ID": "LP-003",
+      "If (signals)": "Title contains \"Fit-to-Standard, Fit/Gap, Explore Workshop\"",
+      "Set (value)": "Explore",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(fit[-\\s]?to[-\\s]?standard|fit[-\\s]?gap|explore)\\b"
+    },
+    {
+      "Facet": "LifecyclePhase",
+      "Rule ID": "LP-004",
+      "If (signals)": "Build, Configuration, Unit Test, SIT in title/body",
+      "Set (value)": "Realize",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(build|configuration|unit\\s+test|SIT)\\b"
+    },
+    {
+      "Facet": "LifecyclePhase",
+      "Rule ID": "LP-005",
+      "If (signals)": "Cutover, Dress Rehearsal, UAT, Go-Live",
+      "Set (value)": "Deploy",
+      "Weight": 0.65,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(cutover|dress\\s+rehearsal|UAT|go[-\\s]?live)\\b"
+    },
+    {
+      "Facet": "LifecyclePhase",
+      "Rule ID": "LP-006",
+      "If (signals)": "Runbook, Hypercare, Operations, Support",
+      "Set (value)": "Run",
+      "Weight": 0.65,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(runbook|hypercare|operations?|support)\\b"
+    }
+  ],
+  "Status_Rules": [
+    {
+      "Facet": "Status",
+      "Rule ID": "ST-001",
+      "If (signals)": "Title/body contains \"Draft, WIP, v0.\"",
+      "Set (value)": "Draft",
+      "Weight": 0.6,
+      "Anti-signals": "Approved|Final",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(draft|WIP|v0\\.)\\b"
+    },
+    {
+      "Facet": "Status",
+      "Rule ID": "ST-002",
+      "If (signals)": "Review, For Review, Peer Review",
+      "Set (value)": "In Review",
+      "Weight": 0.6,
+      "Anti-signals": "Approved|Superseded",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(review|for\\s+review|peer\\s+review)\\b"
+    },
+    {
+      "Facet": "Status",
+      "Rule ID": "ST-003",
+      "If (signals)": "Approved, Signed-off, Final",
+      "Set (value)": "Approved",
+      "Weight": 0.65,
+      "Anti-signals": "Draft|WIP",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(approved|signed[-\\s]?off|final)\\b"
+    },
+    {
+      "Facet": "Status",
+      "Rule ID": "ST-004",
+      "If (signals)": "Superseded, Obsolete, Replaced by v",
+      "Set (value)": "Superseded",
+      "Weight": 0.7,
+      "Anti-signals": "—",
+      "Secondary action": "Link to replacement doc if referenced",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(superseded|obsolete|replaced\\s+by)\\b"
+    },
+    {
+      "Facet": "Status",
+      "Rule ID": "ST-005",
+      "If (signals)": "Deprecated",
+      "Set (value)": "Deprecated",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(deprecated)\\b"
+    }
+  ],
+  "Region_Rules": [
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-001",
+      "If (signals)": "Title/Body contains \"Mexico, MX, Monterrey, Peso (MXN)\"",
+      "Set (value)": "Mexico",
+      "Weight": 0.6,
+      "Anti-signals": "US|Canada",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(mexico|mx\\b|monterrey|MXN)\\b"
+    },
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-002",
+      "If (signals)": "United States, US, USA, USD",
+      "Set (value)": "US",
+      "Weight": 0.6,
+      "Anti-signals": "Mexico|Canada",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(united\\s+states|USA?|USD)\\b"
+    },
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-003",
+      "If (signals)": "Canada, CA, CAD, Toronto",
+      "Set (value)": "Canada",
+      "Weight": 0.6,
+      "Anti-signals": "US|Mexico",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(canada|CAD|toronto)\\b"
+    },
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-004",
+      "If (signals)": "LATAM, Latin America",
+      "Set (value)": "LATAM",
+      "Weight": 0.5,
+      "Anti-signals": "Specific country detected",
+      "Secondary action": "Promote country over region",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(latam|latin\\s+america)\\b"
+    },
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-005",
+      "If (signals)": "APAC, Asia Pacific",
+      "Set (value)": "APAC",
+      "Weight": 0.5,
+      "Anti-signals": "Specific country detected",
+      "Secondary action": "Promote country over region",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(APAC|asia\\s+pacific)\\b"
+    },
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-006",
+      "If (signals)": "EMEA, Europe",
+      "Set (value)": "EMEA",
+      "Weight": 0.5,
+      "Anti-signals": "Specific country detected",
+      "Secondary action": "Promote country over region",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(EMEA|europe)\\b"
+    },
+    {
+      "Facet": "Region",
+      "Rule ID": "RG-007",
+      "If (signals)": "Company code/plant code patterns tied to region (e.g., US10, MX20)",
+      "Set (value)": "Country via map",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "Use lookup table CC/Plant→Country",
+      "Escalate if": "confidence<0.70",
+      "Examples / Regex": "(?i)\\b(US\\d{2}|MX\\d{2})\\b"
+    }
+  ],
+  "SystemEnv_Rules": [
+    {
+      "Facet": "SystemEnv",
+      "Rule ID": "SE-001",
+      "If (signals)": "Title/Body contains \"DEV, Development\"",
+      "Set (value)": "DEV",
+      "Weight": 0.6,
+      "Anti-signals": "QAS|PRD",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(DEV|development)\\b"
+    },
+    {
+      "Facet": "SystemEnv",
+      "Rule ID": "SE-002",
+      "If (signals)": "QAS, QA, Quality",
+      "Set (value)": "QAS",
+      "Weight": 0.6,
+      "Anti-signals": "DEV|PRD",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(QAS|\\bQA\\b|quality)\\b"
+    },
+    {
+      "Facet": "SystemEnv",
+      "Rule ID": "SE-003",
+      "If (signals)": "PRD, Production, Live",
+      "Set (value)": "PRD",
+      "Weight": 0.65,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(PRD|production|live)\\b"
+    },
+    {
+      "Facet": "SystemEnv",
+      "Rule ID": "SE-004",
+      "If (signals)": "Sandbox, SBX",
+      "Set (value)": "Sandbox",
+      "Weight": 0.55,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(sandbox|SBX)\\b"
+    },
+    {
+      "Facet": "SystemEnv",
+      "Rule ID": "SE-005",
+      "If (signals)": "Training",
+      "Set (value)": "Training",
+      "Weight": 0.55,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(training)\\b"
+    }
+  ],
+  "Confidentiality_Rules": [
+    {
+      "Facet": "Confidentiality",
+      "Rule ID": "CF-001",
+      "If (signals)": "Explicit label keywords: \"Confidential\", \"Internal Use Only\"",
+      "Set (value)": "Confidential",
+      "Weight": 0.7,
+      "Anti-signals": "Public",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(confidential|internal\\s+use\\s+only)\\b"
+    },
+    {
+      "Facet": "Confidentiality",
+      "Rule ID": "CF-002",
+      "If (signals)": "PII/PHI markers: \"SSN, SIN, passport, PHI, HIPAA\"",
+      "Set (value)": "Restricted",
+      "Weight": 0.8,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(SSN|SIN|passport|PHI|HIPAA)\\b"
+    },
+    {
+      "Facet": "Confidentiality",
+      "Rule ID": "CF-003",
+      "If (signals)": "Financial sensitive: \"salary, compensation, pricing, margin\"",
+      "Set (value)": "Confidential",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(salary|compensation|pricing|margin)\\b"
+    },
+    {
+      "Facet": "Confidentiality",
+      "Rule ID": "CF-004",
+      "If (signals)": "Explicit \"Public\" marker or published externally",
+      "Set (value)": "Public",
+      "Weight": 0.8,
+      "Anti-signals": "Confidential|Restricted",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(public|press\\s+release|published)\\b"
+    },
+    {
+      "Facet": "Confidentiality",
+      "Rule ID": "CF-005",
+      "If (signals)": "Default where none detected",
+      "Set (value)": "Internal",
+      "Weight": 0.4,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "Default fallback"
+    }
+  ],
+  "GenericType_Rules": [
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-001",
+      "If (signals)": "Title contains \"Policy\"",
+      "Set (value)": "Policy",
+      "Weight": 0.7,
+      "Anti-signals": "Guideline|Standard",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bpolicy\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-002",
+      "If (signals)": "Standard|Baseline|Hardening",
+      "Set (value)": "Standard",
+      "Weight": 0.65,
+      "Anti-signals": "Guideline",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(standard|baseline|hardening)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-003",
+      "If (signals)": "Procedure",
+      "Set (value)": "Procedure",
+      "Weight": 0.65,
+      "Anti-signals": "Work Instruction|Runbook",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bprocedure\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-004",
+      "If (signals)": "Work Instruction|SOP|How-To",
+      "Set (value)": "Work Instruction / SOP",
+      "Weight": 0.65,
+      "Anti-signals": "Procedure|Runbook",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(work\\s+instruction|SOP|how[-\\s]?to)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-005",
+      "If (signals)": "Guideline|Best Practice|Playbook",
+      "Set (value)": "Guideline",
+      "Weight": 0.6,
+      "Anti-signals": "Policy|Standard",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(guideline|best\\s+practice|playbook)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-006",
+      "If (signals)": "Strategy|Strategic Plan|Vision",
+      "Set (value)": "Strategy",
+      "Weight": 0.6,
+      "Anti-signals": "Plan|Roadmap",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(strategy|strategic\\s+plan|vision)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-007",
+      "If (signals)": "Roadmap|Timeline",
+      "Set (value)": "Roadmap",
+      "Weight": 0.6,
+      "Anti-signals": "Plan",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(roadmap|timeline)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-008",
+      "If (signals)": "Plan|Project Plan|Implementation Plan",
+      "Set (value)": "Plan",
+      "Weight": 0.6,
+      "Anti-signals": "Roadmap",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(plan|project\\s+plan|implementation\\s+plan)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-009",
+      "If (signals)": "Charter|Project Charter|Program Charter",
+      "Set (value)": "Charter",
+      "Weight": 0.65,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(charter|project\\s+charter|program\\s+charter)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-010",
+      "If (signals)": "Business Case|Concept Paper|Funding Request",
+      "Set (value)": "Proposal",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(business\\s+case|concept\\s+paper|funding\\s+request)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-011",
+      "If (signals)": "Requirements|URS|SRS",
+      "Set (value)": "Requirements",
+      "Weight": 0.65,
+      "Anti-signals": "Specification|Design",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(requirements|URS|SRS)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-012",
+      "If (signals)": "Specification|Spec",
+      "Set (value)": "Specification",
+      "Weight": 0.6,
+      "Anti-signals": "Requirements|Design",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(specification|spec|functional\\s+spec|technical\\s+specification)?\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-013",
+      "If (signals)": "Design|HLD|LLD",
+      "Set (value)": "Design Document",
+      "Weight": 0.6,
+      "Anti-signals": "Specification",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bdesign\\b|HLD|LLD"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-014",
+      "If (signals)": "Process Map|Flowchart|BPMN",
+      "Set (value)": "Process Model",
+      "Weight": 0.6,
+      "Anti-signals": "Procedure|WI",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(process\\s+map|flowchart|BPMN)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-015",
+      "If (signals)": "Data Dictionary|Data Catalog|Glossary",
+      "Set (value)": "Data Dictionary",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(data\\s+dictionary|catalog|glossary)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-016",
+      "If (signals)": "Report|Whitepaper|Status Report",
+      "Set (value)": "Report",
+      "Weight": 0.6,
+      "Anti-signals": "Dashboard",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\breport|whitepaper\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-017",
+      "If (signals)": "Dashboard|Scorecard|KPI",
+      "Set (value)": "Dashboard",
+      "Weight": 0.6,
+      "Anti-signals": "Report",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(dashboard|scorecard|KPI)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-018",
+      "If (signals)": "Minutes|MoM|Meeting Notes",
+      "Set (value)": "Meeting Minutes",
+      "Weight": 0.6,
+      "Anti-signals": "Decision",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(minutes|MoM|meeting\\s+notes)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-019",
+      "If (signals)": "Decision Log|Decision Register",
+      "Set (value)": "Decision Register",
+      "Weight": 0.65,
+      "Anti-signals": "Minutes",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(decision\\s+(log|register))\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-020",
+      "If (signals)": "Risk Register|RAID",
+      "Set (value)": "Risk Register",
+      "Weight": 0.6,
+      "Anti-signals": "Issue Log",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(risk\\s+register|RAID)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-021",
+      "If (signals)": "Issue Log|Incident Log",
+      "Set (value)": "Issue Log",
+      "Weight": 0.6,
+      "Anti-signals": "Risk Register",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(issue\\s+log|incident\\s+log)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-022",
+      "If (signals)": "Change Request|CRQ|RFC",
+      "Set (value)": "Change Request",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(change\\s+request|CRQ|RFC)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-023",
+      "If (signals)": "Contract|Agreement|MSA|SOW",
+      "Set (value)": "Contract / Agreement",
+      "Weight": 0.7,
+      "Anti-signals": "—",
+      "Secondary action": "Set SOW as secondary if both signals fire",
+      "Escalate if": "confidence<0.70",
+      "Examples / Regex": "(?i)\\b(contract|agreement|MSA|NDA)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-024",
+      "If (signals)": "Statement of Work|SoW",
+      "Set (value)": "Statement of Work",
+      "Weight": 0.65,
+      "Anti-signals": "Contract",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(statement\\s+of\\s+work|SoW)\\b"
+    },
+    {
+      "Facet": "GenericType",
+      "Rule ID": "GT-025",
+      "If (signals)": "Runbook|Ops Manual|Operations Guide",
+      "Set (value)": "Runbook / Operations Manual",
+      "Weight": 0.6,
+      "Anti-signals": "Procedure|WI",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(runbook|ops\\s+manual|operations\\s+guide)\\b"
+    }
+  ],
+  "Identifier_Extraction": [
+    {
+      "Facet": "DecisionRef",
+      "Rule ID": "ID-DEC",
+      "If (signals)": "Pattern \"DEC-\" followed by digits",
+      "Set (value)": "Capture DecisionRef (e.g., DEC-123)",
+      "Weight": "—",
+      "Anti-signals": "—",
+      "Secondary action": "Store in DecisionRef field",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bDEC[-\\s]?(\\d{2,6})\\b"
+    },
+    {
+      "Facet": "WRICEF ID",
+      "Rule ID": "ID-WRICEF",
+      "If (signals)": "WRICEF- or \"RICEFW-\" + digits",
+      "Set (value)": "Capture WRICEF-ID",
+      "Weight": "—",
+      "Anti-signals": "—",
+      "Secondary action": "Map to ObjectCategory if possible",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(W(RICEF|RICEFW)?[-\\s]?)(\\d{2,6})\\b"
+    },
+    {
+      "Facet": "Change Request",
+      "Rule ID": "ID-CRQ",
+      "If (signals)": "CRQ- digits OR \"RFC-\" digits",
+      "Set (value)": "Capture Change ID",
+      "Weight": "—",
+      "Anti-signals": "—",
+      "Secondary action": "Link to ChaRM if applicable",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(CRQ|RFC)[-\\s]?(\\d{2,7})\\b"
+    },
+    {
+      "Facet": "Interface ID",
+      "Rule ID": "ID-INT",
+      "If (signals)": "Interface code tokens (e.g., IF-###, IDoc types)",
+      "Set (value)": "Capture Interface-ID",
+      "Weight": "—",
+      "Anti-signals": "—",
+      "Secondary action": "Relate to ISD doc",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bIF[-\\s]?\\d{3,6}\\b|ORDERS\\d+|INVOIC\\d+"
+    },
+    {
+      "Facet": "Test Case ID",
+      "Rule ID": "ID-TC",
+      "If (signals)": "TC- digits",
+      "Set (value)": "Capture Test Case ID",
+      "Weight": "—",
+      "Anti-signals": "—",
+      "Secondary action": "Link tested_by edge",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bTC[-\\s]?(\\d{2,6})\\b"
+    }
+  ],
+  "ObjectCategory_Rules": [
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-001",
+      "If (signals)": "IDoc OR pattern of basic types (ORDERS05, DESADV, INVOIC02)",
+      "Set (value)": "IDoc",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bIDoc\\b|(?:ORDERS05|DESADV|INVOIC\\d+)"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-002",
+      "If (signals)": "BAPI_ prefix",
+      "Set (value)": "BAPI",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bBAPI_[A-Z0-9_]+"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-003",
+      "If (signals)": "/sap/opu/odata OR \"OData\"",
+      "Set (value)": "OData",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)(/sap/opu/odata|OData)"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-004",
+      "If (signals)": "API with REST/JSON schema references",
+      "Set (value)": "API",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bAPI\\b.*\\b(REST|JSON|OpenAPI|Swagger)\\b"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-005",
+      "If (signals)": "Workflow OR SWDD references",
+      "Set (value)": "Workflow",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bworkflow\\b|SWDD"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-006",
+      "If (signals)": "Form with SmartForms/Adobe refs",
+      "Set (value)": "Form",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(smartforms?|adobe\\s+forms?)\\b"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-007",
+      "If (signals)": "Conversion or migration program names",
+      "Set (value)": "Conversion",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bconversion\\b|(LTMC|LTMOM)"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-008",
+      "If (signals)": "Enhancement OR BAdI/User Exit references",
+      "Set (value)": "Enhancement",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(BAdI|user\\s+exit|enhancement)\\b"
+    },
+    {
+      "Facet": "ObjectCategory",
+      "Rule ID": "OC-009",
+      "If (signals)": "Report OR T-code references",
+      "Set (value)": "Report",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(report|T-\\d{4})\\b"
+    }
+  ],
+  "SAPModule_Rules": [
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-001",
+      "If (signals)": "SD OR \"Sales and Distribution\"",
+      "Set (value)": "SD",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(SD|sales\\s+and\\s+distribution)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-002",
+      "If (signals)": "MM OR \"Materials Management\"",
+      "Set (value)": "MM",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(MM|materials\\s+management)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-003",
+      "If (signals)": "PP OR \"Production Planning\"",
+      "Set (value)": "PP",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(PP|production\\s+planning)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-004",
+      "If (signals)": "FI OR \"Financial Accounting\"",
+      "Set (value)": "FI",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(FI|financial\\s+accounting)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-005",
+      "If (signals)": "CO OR \"Controlling\"",
+      "Set (value)": "CO",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(CO|controlling)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-006",
+      "If (signals)": "EWM OR \"Extended Warehouse\"",
+      "Set (value)": "EWM",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(EWM|extended\\s+warehouse)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-007",
+      "If (signals)": "TM OR \"Transportation Management\"",
+      "Set (value)": "TM",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(\\bTM\\b|transportation\\s+management)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-008",
+      "If (signals)": "QM OR \"Quality Management\"",
+      "Set (value)": "QM",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(QM|quality\\s+management)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-009",
+      "If (signals)": "PM OR \"Plant Maintenance\"",
+      "Set (value)": "PM",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(PM|plant\\s+maintenance)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-010",
+      "If (signals)": "PS OR \"Project System\"",
+      "Set (value)": "PS",
+      "Weight": 0.4,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(PS|project\\s+system)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-011",
+      "If (signals)": "SuccessFactors|SF",
+      "Set (value)": "SuccessFactors",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(successfactors|SF)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-012",
+      "If (signals)": "Ariba|Sourcing",
+      "Set (value)": "Ariba",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(Ariba|sourcing)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-013",
+      "If (signals)": "Concur",
+      "Set (value)": "Concur",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(concur)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-014",
+      "If (signals)": "SolMan|Solution Manager|ChaRM",
+      "Set (value)": "SolMan / ChaRM",
+      "Weight": 0.55,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(solman|solution\\s+manager|charm)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-015",
+      "If (signals)": "BTP|Business Technology Platform|CPI",
+      "Set (value)": "BTP / CPI",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(BTP|business\\s+technology\\s+platform|CPI)\\b"
+    },
+    {
+      "Facet": "SAPModule",
+      "Rule ID": "SM-016",
+      "If (signals)": "BW/4HANA|Business Warehouse|SAC",
+      "Set (value)": "BW / SAC",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(BW\\/4HANA|business\\s+warehouse|SAC)\\b"
+    }
+  ],
+  "ProcessArea_Rules": [
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-001",
+      "If (signals)": "Title/Body contains \"O2C\" OR \"Order to Cash\" OR \"OTC\"",
+      "Set (value)": "Order-to-Cash",
+      "Weight": 0.5,
+      "Anti-signals": "Procure to Pay|P2P",
+      "Secondary action": "Allow secondary if both present",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(O2C|OTC|order[-\\s]?to[-\\s]?cash)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-002",
+      "If (signals)": "Title/Body contains \"P2P\" OR \"Procure to Pay\"",
+      "Set (value)": "Procure-to-Pay",
+      "Weight": 0.5,
+      "Anti-signals": "O2C|R2R",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(P2P|procure[-\\s]?to[-\\s]?pay)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-003",
+      "If (signals)": "Title/Body contains \"R2R\" OR \"Record to Report\"",
+      "Set (value)": "Record-to-Report",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(R2R|record[-\\s]?to[-\\s]?report)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-004",
+      "If (signals)": "Title/Body contains \"Plan to Produce\" OR \"PtP\"",
+      "Set (value)": "Plan-to-Produce",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(plan[-\\s]?to[-\\s]?produce|PtP)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-005",
+      "If (signals)": "Title/Body contains \"Warehouse|Fulfillment|W2F\"",
+      "Set (value)": "Warehouse-to-Fulfill",
+      "Weight": 0.45,
+      "Anti-signals": "Transportation dominates",
+      "Secondary action": "Set EWM/TM secondary",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(W2F|warehouse|fulfill(ment)?)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-006",
+      "If (signals)": "Source to Contract|S2C|Sourcing|Ariba Sourcing",
+      "Set (value)": "Source-to-Contract",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(S2C|source[-\\s]?to[-\\s]?contract|sourcing)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-007",
+      "If (signals)": "Hire to Retire|H2R|SuccessFactors",
+      "Set (value)": "Hire-to-Retire",
+      "Weight": 0.45,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(H2R|hire[-\\s]?to[-\\s]?retire|successfactors)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-008",
+      "If (signals)": "Integration|CPI|Middleware|Interface",
+      "Set (value)": "Integration/CPI",
+      "Weight": 0.4,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(integration|CPI|middleware|interface)\\b"
+    },
+    {
+      "Facet": "ProcessArea",
+      "Rule ID": "PA-009",
+      "If (signals)": "Test|UAT|SIT|User Acceptance Test",
+      "Set (value)": "Testing",
+      "Weight": 0.5,
+      "Anti-signals": "Training",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(test|UAT|SIT|user\\s+acceptance\\s+test)\\b"
+    }
+  ],
+  "ArtifactType_Rules": [
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-001",
+      "If (signals)": "Title OR Filename contains \"Functional Spec\" OR \"FSD\" OR startswith(\"FS \")",
+      "Set (value)": "FSD",
+      "Weight": 0.5,
+      "Anti-signals": "Title contains \"Technical\" OR \"TS\"",
+      "Secondary action": "Set TSD as secondary if both signals fire",
+      "Escalate if": "confidence<0.70",
+      "Examples / Regex": "(?i)\\b(functional\\s+spec(ification)?|FSD|^FS[\\s-])\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-002",
+      "If (signals)": "H1/H2 contains \"Functional Specification\" OR section \"Acceptance Criteria\"",
+      "Set (value)": "FSD",
+      "Weight": 0.3,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)Acceptance\\s+Criteria"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-003",
+      "If (signals)": "Body contains \"business rules\", \"use case\", \"user story\"",
+      "Set (value)": "FSD",
+      "Weight": 0.2,
+      "Anti-signals": "technical design within 200 chars",
+      "Secondary action": "Set alias keyword \"FS\"",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(business\\s+rules?|use\\s+case|user\\s+story)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-004",
+      "If (signals)": "Title OR Filename contains \"Technical Spec|Technical Design|TSD|TS \"",
+      "Set (value)": "TSD",
+      "Weight": 0.5,
+      "Anti-signals": "Functional Spec within title",
+      "Secondary action": "Set FSD secondary if FS signals fire",
+      "Escalate if": "confidence<0.70",
+      "Examples / Regex": "(?i)\\b(technical\\s+(spec|design)|TSD|^TS[\\s-])\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-005",
+      "If (signals)": "H1/H2 includes \"Technical Specification/Design\" OR object tables present (Z\\w{3,})",
+      "Set (value)": "TSD",
+      "Weight": 0.3,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\bZ[A-Z0-9_]{3,}\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-006",
+      "If (signals)": "Body contains \"object\", \"table\", \"code logic\", \"mapping\"",
+      "Set (value)": "TSD",
+      "Weight": 0.2,
+      "Anti-signals": "business requirements within 200 chars",
+      "Secondary action": "Set alias keyword \"TS\"",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(object|table|code\\s+logic|mapping)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-007",
+      "If (signals)": "Title contains \"BRD\" OR \"Business Requirements\"",
+      "Set (value)": "BRD",
+      "Weight": 0.55,
+      "Anti-signals": "FSD|PDD",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(BRD|business\\s+requirements)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-008",
+      "If (signals)": "Title contains \"Process Definition|PDD|E2E Design\"",
+      "Set (value)": "PDD",
+      "Weight": 0.55,
+      "Anti-signals": "BRD|FSD",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(process\\s+definition|PDD|E2E\\s+design)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-009",
+      "If (signals)": "Title contains \"Fit/Gap Analysis|F2S\"",
+      "Set (value)": "FGA",
+      "Weight": 0.55,
+      "Anti-signals": "PDD",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(fit[-\\s]?gap|FGA|F2S)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-010",
+      "If (signals)": "Title contains \"Process Map|Flowchart|BPMN Diagram\"",
+      "Set (value)": "BPMN",
+      "Weight": 0.5,
+      "Anti-signals": "PDD",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(process\\s+map|flowchart|BPMN)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-011",
+      "If (signals)": "Title contains \"Configuration Guide|IMG Settings|Config Workbook\"",
+      "Set (value)": "CDD",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(configuration\\s+guide|IMG|config\\s+workbook)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-012",
+      "If (signals)": "Title contains \"Design Rationale|Configuration Rationale\"",
+      "Set (value)": "CRD",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(design\\s+rationale|configuration\\s+rationale)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-013",
+      "If (signals)": "Title contains \"Architecture Blueprint|HLD|Solution Blueprint\"",
+      "Set (value)": "ARB",
+      "Weight": 0.6,
+      "Anti-signals": "TSD",
+      "Secondary action": "—",
+      "Escalate if": "conflict",
+      "Examples / Regex": "(?i)\\b(architecture\\s+blueprint|HLD|solution\\s+blueprint)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-014",
+      "If (signals)": "Title contains \"ISD|Interface Spec|API Spec\"",
+      "Set (value)": "ISD",
+      "Weight": 0.55,
+      "Anti-signals": "FSD|TSD",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(ISD|interface\\s+spec|API\\s+spec)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-015",
+      "If (signals)": "Title contains \"Conversion Spec|Migration Doc\"",
+      "Set (value)": "CV",
+      "Weight": 0.55,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(conversion\\s+spec|migration\\s+doc)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-016",
+      "If (signals)": "Title contains \"Test Case|Test Script|Test Procedure|SIT\"",
+      "Set (value)": "TC",
+      "Weight": 0.55,
+      "Anti-signals": "UAT",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(test\\s+(case|script|procedure))\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-017",
+      "If (signals)": "Title contains \"UAT Script|User Acceptance Test|Business Acceptance\"",
+      "Set (value)": "UAT",
+      "Weight": 0.55,
+      "Anti-signals": "System Test|SIT",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(UAT|user\\s+acceptance)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-018",
+      "If (signals)": "Title contains \"Cutover Plan|Go-Live Plan|Cutover Schedule\"",
+      "Set (value)": "CPD",
+      "Weight": 0.6,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(cutover|go-?live)\\s+plan|\\bcutover\\s+schedule\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-019",
+      "If (signals)": "Title contains \"Runbook|Operations Guide|Operations Manual\"",
+      "Set (value)": "RBK",
+      "Weight": 0.6,
+      "Anti-signals": "Work Instruction|Training",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(runbook|operations?\\s+(guide|manual))\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-020",
+      "If (signals)": "Title contains \"Decision Log|Decision Register|ADR\"",
+      "Set (value)": "DEC",
+      "Weight": 0.6,
+      "Anti-signals": "Minutes",
+      "Secondary action": "Extract DEC ID to DecisionRef",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(decision\\s+(log|register)|\\bADR\\b)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-021",
+      "If (signals)": "Title contains \"RAID|Risk Log|Issue Log|Dependency Log\"",
+      "Set (value)": "RAID",
+      "Weight": 0.6,
+      "Anti-signals": "Minutes",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(RAID|risk\\s+log|issue\\s+log|dependency\\s+log)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-022",
+      "If (signals)": "Title contains \"Minutes|MoM|Meeting Notes\"",
+      "Set (value)": "MIN",
+      "Weight": 0.55,
+      "Anti-signals": "Decision Log|RAID",
+      "Secondary action": "Link mentions to DEC/RAID via IDs",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(minutes|MoM|meeting\\s+notes)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-023",
+      "If (signals)": "Title contains \"Training Material|Job Aid|Quick Reference\"",
+      "Set (value)": "TM",
+      "Weight": 0.5,
+      "Anti-signals": "Work Instruction",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(training\\s+material|job\\s+aid|quick\\s+reference)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-024",
+      "If (signals)": "Title contains \"Change Request|CRQ|RFC|ChaRM\"",
+      "Set (value)": "CRQ",
+      "Weight": 0.6,
+      "Anti-signals": "Decision Log",
+      "Secondary action": "Link to ChaRM ticket",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(change\\s+request|CRQ|RFC|ChaRM)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-025",
+      "If (signals)": "Title contains \"Security Role Matrix|SoD Matrix|Auth Matrix\"",
+      "Set (value)": "SRM",
+      "Weight": 0.5,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(security\\s+role\\s+matrix|SoD\\s+matrix|auth\\s+matrix)\\b"
+    },
+    {
+      "Facet": "ArtifactType",
+      "Rule ID": "AT-026",
+      "If (signals)": "Title contains \"Interface Spec|ISD|BAPI Spec\"",
+      "Set (value)": "ISD",
+      "Weight": 0.55,
+      "Anti-signals": "—",
+      "Secondary action": "—",
+      "Escalate if": "—",
+      "Examples / Regex": "(?i)\\b(interface\\s+spec|ISD|BAPI\\s+spec)\\b"
+    }
+  ]
+}

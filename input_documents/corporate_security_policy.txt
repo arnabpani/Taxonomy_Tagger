@@ -1,0 +1,74 @@
+Corporate Information Security Policy Document
+
+Document Control Information
+Document Title: Corporate Information Security Policy
+Document Version: 3.2
+Effective Date: January 1, 2025
+Review Date: December 31, 2025
+Document Owner: Chief Information Security Officer
+Classification: Confidential - Internal Use Only
+
+Purpose and Scope
+This policy establishes the framework for protecting corporate information assets, systems, and infrastructure from unauthorized access, use, disclosure, disruption, modification, or destruction. The policy applies to all employees, contractors, vendors, and third parties who have access to corporate information systems and data.
+
+Information Asset Classification
+All corporate information assets must be classified according to their sensitivity and business impact. The classification levels are:
+
+Public: Information intended for public consumption with no restrictions on disclosure.
+Internal: Information intended for internal use within the organization but not confidential.
+Confidential: Sensitive information that could harm the organization if improperly disclosed.
+Restricted: Highly sensitive information requiring the highest level of protection.
+
+Access Control and Authentication
+Access to information systems must be based on the principle of least privilege, granting users only the minimum access necessary to perform their job functions. All system access must be authenticated through multi-factor authentication mechanisms. User accounts must be regularly reviewed and access rights adjusted based on role changes or employment status.
+
+Password Management Requirements
+All users must adhere to strong password policies including minimum length requirements, complexity standards, and regular password changes. Passwords must not be shared, written down, or stored in unsecured locations. Default passwords on all systems and devices must be changed immediately upon installation or configuration.
+
+Network Security Controls
+Network infrastructure must be protected through multiple layers of security controls including firewalls, intrusion detection systems, and network segmentation. All network traffic must be monitored and logged for security analysis. Wireless networks must implement strong encryption and authentication mechanisms.
+
+Data Protection and Privacy
+Personal and sensitive corporate data must be protected through encryption, access controls, and secure handling procedures. Data retention policies must be established and enforced to ensure data is only kept for as long as necessary. Data sharing with external parties must be governed by appropriate agreements and security requirements.
+
+Incident Response Procedures
+All security incidents must be reported immediately to the Information Security team. A formal incident response plan must be maintained and regularly tested to ensure effective response to security breaches. Incident documentation and lessons learned must be captured to improve future response capabilities.
+
+Business Continuity and Disaster Recovery
+Critical business processes and systems must have documented backup and recovery procedures. Regular backup testing must be conducted to ensure data can be restored when needed. Disaster recovery plans must be maintained and tested annually to verify the organization's ability to continue operations following a significant disruption.
+
+Vendor and Third-Party Management
+All vendors and third parties with access to corporate systems or data must undergo security assessments and agree to appropriate security requirements. Contracts must include specific security clauses and the right to audit compliance with security standards. Vendor access must be regularly reviewed and terminated when no longer required.
+
+Employee Training and Awareness
+All employees must complete security awareness training upon hiring and annually thereafter. Training must cover current security threats, company policies, and best practices for protecting information assets. Specialized training must be provided to employees with elevated access or security responsibilities.
+
+Physical Security Requirements
+Physical access to facilities containing sensitive information or systems must be controlled and monitored. Visitor access must be supervised and documented. Equipment containing sensitive data must be properly secured when not in use and sanitized before disposal or transfer.
+
+Mobile Device and Remote Access
+Mobile devices accessing corporate systems must meet security standards including encryption, authentication, and remote wipe capabilities. Remote access must be conducted through approved secure connections with appropriate authentication. Personal devices used for business purposes must comply with established security requirements.
+
+Compliance and Regulatory Requirements
+The organization must maintain compliance with applicable laws, regulations, and industry standards including but not limited to GDPR, HIPAA, PCI DSS, and SOX. Regular compliance assessments must be conducted and any deficiencies promptly addressed. Documentation must be maintained to demonstrate compliance efforts.
+
+Security Monitoring and Logging
+All systems must generate security logs that are centrally collected and monitored for suspicious activity. Log retention periods must align with regulatory requirements and business needs. Security monitoring tools must be deployed to detect and alert on potential security threats.
+
+Policy Violations and Enforcement
+Violations of this policy may result in disciplinary action up to and including termination of employment. The severity of consequences will be determined based on the nature and impact of the violation. All policy violations must be investigated and documented.
+
+Policy Review and Updates
+This policy must be reviewed annually and updated as necessary to address changing threats, technologies, and business requirements. All policy changes must be approved by the Information Security Committee and communicated to affected stakeholders.
+
+Roles and Responsibilities
+The Chief Information Security Officer is responsible for overall policy governance and enforcement. Department managers are responsible for ensuring their staff understand and comply with policy requirements. All employees are responsible for protecting information assets and reporting security incidents.
+
+Emergency Procedures
+In the event of a significant security incident, the Emergency Response Team must be activated immediately. Communication procedures must be followed to notify appropriate stakeholders and regulatory authorities as required. Business continuity procedures must be implemented to maintain critical operations.
+
+Related Documents and Standards
+This policy is supported by detailed procedures, standards, and guidelines that provide specific implementation guidance. All related documents must be consistent with this policy and reviewed regularly for currency and accuracy. Training materials and resources are available to support policy compliance.
+
+Contact Information
+Questions regarding this policy should be directed to the Information Security team at security@company.com or extension 5555. Emergency security incidents should be reported immediately to the Security Operations Center at extension 9999 or emergency-security@company.com.
