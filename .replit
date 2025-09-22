@@ -1,8 +1,0 @@
-modules = ["python-3.11"]
-
-[nix]
-channel = "stable-25_05"
-packages = ["fontconfig", "freetype", "ghostscript", "glib", "glibcLocales", "harfbuzz", "libyaml", "pango"]
-
-[agent]
-integrations = ["python_openai:1.0.0"]

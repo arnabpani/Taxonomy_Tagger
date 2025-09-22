@@ -38,3 +38,7 @@ logs/
 
 # Results
 results/
+
+# Local files
+.local/
+.replit
